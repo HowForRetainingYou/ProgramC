@@ -42,35 +42,36 @@ int main()
 
 
 
-{
-int i=0;
-
-for (int i = 1; i <= 200; i++)
-{
-	int flag = 1;
-	int j = 0;
-	for (j = 2;  j <= i - 1; j++)
-	{
-		if (i % j == 0)
-		{
-			flag = 0;
-			break;
-		}
-		
-	}
-	if (flag == 1)
-	{
-		printf("%d", i);
-	}
-	
-}
-
-return 0;
-}
-
-
+//{
+//int i=0;
+//int p = 0;
+//for (int i = 100; i <= 200; i++)
+//{
+//	int flag = 1;
+//	int j = 0;
+//	for (j = 2;  j <= i - 1; j++)
+//	{
+//		if (i % j == 0)
+//		{
+//			flag = 0;//用零表示非来判断非素数
+//			break;
+//		}
+//		
+//	}
+//	if (flag == 1)
+//	{
+//		printf("%d ", i);
+//		p++;
+//	}
+//}
+//printf("素数有%d个\n", p);
+//return 0;
+//}
 
 
 
 
 
+
+
+//goto 语句只能在本函数内跳转。
