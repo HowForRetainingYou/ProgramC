@@ -5,8 +5,8 @@
 void menu()
 {
 	printf("********************\n");
-	printf("*****  1.play ******\n");
-	printf("*****  0.Exit ******\n");
+	printf("*****1.玩游戏 ******\n");
+	printf("*****  0.退出 ******\n");
 
 	printf("********************\n");
 
@@ -34,7 +34,7 @@ void game()
 		}
 		else
 		{
-			printf("恭喜你猜对了！");
+			printf("恭喜你猜对了！\n");
 			break;
 		}
 	}
@@ -50,8 +50,9 @@ int main()
 	int input;
 	do
 	{
+		printf("请选择选项:\n");
+
 		menu();
-		printf("Please choose:\n");
 		scanf("%d", &input);
 		switch (input)
 		{
@@ -60,10 +61,10 @@ int main()
 				game();
 				
 		case 0:
-					printf("Quit the game\n");
+					printf("退出游戏\n");
 					break;
 		default:
-						printf("Error:Please rechoose\n");
+						printf("错误:请重新输入！\n");
 					break;
 		}
 	} while (input);
