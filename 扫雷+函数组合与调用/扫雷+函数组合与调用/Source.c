@@ -1,7 +1,7 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 #include "game.h"
-void menu()//菜单画面
+void menu()//菜单画面，不作返回值
 {
 	printf("-----------------------\n");
 	printf("|--1.searching bomb---|\n");
@@ -14,20 +14,20 @@ int main()
 	int input = 0;
 	do
 	{
-		menu();
-		printf("Please choose\n");
+		menu();//只作为显示功能
+		printf("Please choose:\n");
 		scanf("%d", &input);
 		switch (input)
 		{
 		case 1:
-			printf("Enter game of searching bombs");
+			printf("Enter game of searching bombs\n");
 
 			break;
 		case 0:
-			printf("Exit");
+			printf("Exit\n");
 			break;
 		default:
-			printf("Error! Please reinput");
+			printf("Error! Please reinput\n");
 			break;
 		}
 	} while (input);
