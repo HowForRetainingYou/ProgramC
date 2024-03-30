@@ -31,7 +31,4 @@ int main()
 	}
 	if (flag == 0)
 		printf("没找到");
-
-
-
 }
