@@ -9,6 +9,17 @@ void menu()//菜单画面，不作返回值
 	printf("-----------------------\n");
 }
 
+
+void game()
+{
+	char root[ROWS][COLS];
+	char game_show[ROWS][COLS];
+	format(root, ROWS, COLS, '0');
+	format2(game_show, ROW, COL, '*');
+}
+
+
+
 int main()
 {
 	int input = 0;
@@ -20,8 +31,8 @@ int main()
 		switch (input)
 		{
 		case 1:
-			printf("Enter game of searching bombs\n");
-
+			printf("Enter game\n");
+			game();
 			break;
 		case 0:
 			printf("Exit\n");
