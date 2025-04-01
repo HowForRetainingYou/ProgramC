@@ -38,7 +38,7 @@ int mystrlen(char * p)
 	}
 	return count;
 }
-/*
+/* 
 //不创建临时变量情况下,利用递归求长度
 int mystrlen2(char *p)
 {
@@ -68,9 +68,7 @@ void mystrcpy(char*aim,char*b)
 	char* wait = aim;
 	while (*aim = *b)
 		;
-
 }
-
 int main()
 {
 	char arr1[] = "assddddd";
@@ -79,13 +77,10 @@ int main()
 	strcpy(arr2, arr1);
 	printf("%s", arr2);
 mystrcpy(arr2, arr1);
-
-
 }
 */
-
+/*C 库函数 char *strcat(char *dest, const char *src) 把 src 所指向的字符串追加到 dest 所指向的字符串的结尾。*/
 //strcat
-
 //模拟
 char* mystrcat(char* aim,char*work)
 {
@@ -94,7 +89,6 @@ char* mystrcat(char* aim,char*work)
 		;
 	while (*aim = *work)
 		;
-
 }
 
 int main()
