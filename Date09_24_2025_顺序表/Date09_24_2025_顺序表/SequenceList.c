@@ -17,6 +17,7 @@ void SeqListDestroy(SL* ps)
 	ps->size = 0;
 	ps->capacity = 0;
 }
+
 void SeqListCheckCapacity(SL* ps)
 {
 	if(ps->size == ps->capacity)
@@ -41,31 +42,64 @@ void SeqListPushBack(SL* ps, DataType x)
 	ps->size++;
 }
 
+void SeqListPopBack(SL* ps)
+{
+	assert(ps);
+	ps->a[ps->size - 1] = 0;
+	ps->size--;
+}
 
-//void SeqListPrint(SL* ps)
-//{
-//
-//}
-//void SeqListPopBack(SL* ps)
-//{
-//
-//}
-//void SeqListPushFront(SL* ps, DataType x)
-//{
-//
-//}
-//void SeqListPopFront(SL* ps)
-//{
-//
-//}
-//void SeqListInsert(SL* ps, int pos, DataType x)
-//{
-//
-//}
-//void SeqListErase(SL* ps, int pos)
-//{
-//
-//}
+void SeqListPushFront(SL* ps, DataType x)
+{
+	SeqListCheckCapacity(ps);
+	for (int i = ps->size - 1; i >= 0; i--)
+	{
+		ps->a[i + 1] = ps->a[i];
+	}
+	ps->a[0] = x;
+	ps->size++;
+}
+
+void SeqListPopFront(SL* ps)
+{
+	assert(ps);
+	for (int i = 0; i < ps->size-1; i++)
+	{
+		ps->a[i] = ps->a[i + 1];
+	}
+	ps->size--;
+}
+
+void SeqListPrint(SL* ps)
+{
+	for (int i = 0; i < ps->size; i++)
+	{
+		printf("%d ", ps->a[i]);
+	}
+}
+
+void SeqListInsert(SL* ps, int pos, DataType x)
+{
+	assert(ps);
+
+	SeqListCheckCapacity(ps);
+	for (int i = ps->size; i > pos; i--)
+	{
+		ps->a[i] = ps->a[i - 1];
+	}
+	ps->a[pos] = x;//Remember to insert the element
+	ps->size++;//Remember to increase the size
+}
+
+void SeqListErase(SL* ps, int pos)
+{
+	assert(ps);
+	for (int i = pos; i < ps->size; i++)
+	{
+		ps->a[i] = ps->a[i + 1];
+	}
+	ps->size--;//Remember to decrease the size
+}
 //int SeqListFind(SL* ps, DataType x)
 //{
 //
