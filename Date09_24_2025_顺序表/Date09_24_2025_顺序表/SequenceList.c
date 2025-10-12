@@ -42,12 +42,12 @@ void SeqListPushBack(SL* ps, DataType x)
 	ps->size++;
 }
 
-void SeqListPopBack(SL* ps)
-{
-	assert(ps);
-	ps->a[ps->size - 1] = 0;
-	ps->size--;
-}
+//void SeqListPopBack(SL* ps)
+//{
+//	assert(ps);
+//	ps->a[ps->size - 1] = 0;
+//	ps->size--;
+//}
 
 void SeqListPushFront(SL* ps, DataType x)
 {
@@ -70,13 +70,13 @@ void SeqListPopFront(SL* ps)
 	ps->size--;
 }
 
-void SeqListPrint(SL* ps)
-{
-	for (int i = 0; i < ps->size; i++)
-	{
-		printf("%d ", ps->a[i]);
-	}
-}
+//void SeqListPrint(SL* ps)
+//{
+//	for (int i = 0; i < ps->size; i++)
+//	{
+//		printf("%d ", ps->a[i]);
+//	}
+//}
 
 void SeqListInsert(SL* ps, int pos, DataType x)
 {
@@ -102,7 +102,15 @@ void SeqListErase(SL* ps, int pos)
 }
 //int SeqListFind(SL* ps, DataType x)
 //{
-//
+//	assert(ps);
+//	for(int i=0;i<ps->size;i++)
+//	{
+//		if(ps->a[i]==x)
+//		{
+//			return i;
+//		}
+//	}
+//	return -1;
 //}
 //int SeqListGetCapacity(SL* ps)
 //{

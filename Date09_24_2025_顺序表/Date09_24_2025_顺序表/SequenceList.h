@@ -3,8 +3,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
+#include "AddressBook.h"
 
-typedef int DataType;
+//typedef int DataType;
+typedef PI DataType;
+
 typedef struct SeqList
 {
 	DataType* a;
@@ -22,7 +25,7 @@ void SeqListPushFront(SL* ps, DataType x);
 void SeqListPopFront(SL* ps);
 void SeqListInsert(SL* ps, int pos, DataType x);
 void SeqListErase(SL* ps, int pos);
-//int SeqListFind(SL* ps, DataType x);
+int SeqListFind(SL* ps, DataType x);
 //int SeqListGetCapacity(SL* ps);
 //void SeqListSetCapacity(SL* ps, int capacity);
 //int SeqListSize(SL* ps);

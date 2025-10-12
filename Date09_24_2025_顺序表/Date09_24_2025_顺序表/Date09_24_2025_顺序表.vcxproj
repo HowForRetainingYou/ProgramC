@@ -123,10 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddressBook.c" />
     <ClCompile Include="SequenceList.c" />
     <ClCompile Include="Source.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AddressBook.h" />
     <ClInclude Include="SequenceList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
