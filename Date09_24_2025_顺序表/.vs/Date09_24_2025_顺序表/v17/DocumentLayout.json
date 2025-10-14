@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95A45BEF-9B65-407D-9443-128CFCACA11B}|Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868.vcxproj|C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{95A45BEF-9B65-407D-9443-128CFCACA11B}|Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868.vcxproj|solutionrelative:Date09_24_2025_\u987A\u5E8F\u8868\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95A45BEF-9B65-407D-9443-128CFCACA11B}|Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868.vcxproj|C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868\\AddressBook.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{95A45BEF-9B65-407D-9443-128CFCACA11B}|Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868.vcxproj|solutionrelative:Date09_24_2025_\u987A\u5E8F\u8868\\AddressBook.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -15,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{95A45BEF-9B65-407D-9443-128CFCACA11B}|Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868.vcxproj|solutionrelative:Date09_24_2025_\u987A\u5E8F\u8868\\SequenceList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{95A45BEF-9B65-407D-9443-128CFCACA11B}|Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868.vcxproj|C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868\\SequenceList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{95A45BEF-9B65-407D-9443-128CFCACA11B}|Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868.vcxproj|solutionrelative:Date09_24_2025_\u987A\u5E8F\u8868\\SequenceList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{95A45BEF-9B65-407D-9443-128CFCACA11B}|Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868.vcxproj|C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868\\AddressBook.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{95A45BEF-9B65-407D-9443-128CFCACA11B}|Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868.vcxproj|solutionrelative:Date09_24_2025_\u987A\u5E8F\u8868\\AddressBook.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95A45BEF-9B65-407D-9443-128CFCACA11B}|Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868.vcxproj|C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868\\SequenceList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{95A45BEF-9B65-407D-9443-128CFCACA11B}|Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868.vcxproj|solutionrelative:Date09_24_2025_\u987A\u5E8F\u8868\\SequenceList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{95A45BEF-9B65-407D-9443-128CFCACA11B}|Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868.vcxproj|C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{95A45BEF-9B65-407D-9443-128CFCACA11B}|Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868.vcxproj|solutionrelative:Date09_24_2025_\u987A\u5E8F\u8868\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868\\Source.c",
               "RelativeDocumentMoniker": "Date09_24_2025_\u987A\u5E8F\u8868\\Source.c",
@@ -52,26 +52,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SequenceList.c",
               "DocumentMoniker": "C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868\\SequenceList.c",
               "RelativeDocumentMoniker": "Date09_24_2025_\u987A\u5E8F\u8868\\SequenceList.c",
               "ToolTip": "C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868\\SequenceList.c",
               "RelativeToolTip": "Date09_24_2025_\u987A\u5E8F\u8868\\SequenceList.c",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-08T13:05:10.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AddressBook.c",
               "DocumentMoniker": "C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868\\AddressBook.c",
               "RelativeDocumentMoniker": "Date09_24_2025_\u987A\u5E8F\u8868\\AddressBook.c",
               "ToolTip": "C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868\\AddressBook.c",
               "RelativeToolTip": "Date09_24_2025_\u987A\u5E8F\u8868\\AddressBook.c",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-12T08:20:53.065Z",
               "EditorCaption": ""
@@ -91,13 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "SequenceList.h",
               "DocumentMoniker": "C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868\\SequenceList.h",
               "RelativeDocumentMoniker": "Date09_24_2025_\u987A\u5E8F\u8868\\SequenceList.h",
               "ToolTip": "C:\\Code\\ProgramC\\Date09_24_2025_\u987A\u5E8F\u8868\\Date09_24_2025_\u987A\u5E8F\u8868\\SequenceList.h",
               "RelativeToolTip": "Date09_24_2025_\u987A\u5E8F\u8868\\SequenceList.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-08T13:05:58.703Z",
               "EditorCaption": ""
