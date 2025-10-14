@@ -32,6 +32,8 @@ int main()
 {
 	TXL e1;
 	SeqListInit(&e1);
+	AddressBookAdd(&e1);
+	AddressBookShow(&e1);
 	/*Test();*/
 	return 0;	
 }
