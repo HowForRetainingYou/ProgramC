@@ -19,10 +19,10 @@ typedef struct SeqList TXL;//Rename SeqList to TXL for better readability in thi
 
 
 void AddressBookInit(TXL* e);
-void AddressBookDestroy(TXL* e);
+void AddressBookDelete(TXL* e);
 void AdressBookAdd(TXL* e);
 void AddressBookShow(const TXL* e);
-void AddressBookDelete(TXL* e);
+
 void AddressBookFind(const TXL* e);
 void AddressBookModify(TXL* e);
 
