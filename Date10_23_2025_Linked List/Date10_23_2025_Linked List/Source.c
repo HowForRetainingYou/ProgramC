@@ -46,17 +46,30 @@ int main()
 	SLLPushBack(&a,4);
 	SLLPushBack(&a,6);
 	SLLPushBack(&a,7);
+	printf("The nodes created at first:\n");
+	SLLPrint(a);
+
 	SLLPopBack(&a);
-	//SLLPopFront(&a);
+	printf("Nodes after popping back(poped 7):\n");
+	SLLPrint(a);
+
+	printf("Nodes after pushing front(pushed 0):\n");
 	SLLPushFront(&a, 0);
-	node* cur = a;
-	int count = 0;
-	while (cur)
-	{
-		count++;
-		printf("The %d Node value is %d\n", count, cur->data);
-		cur = cur->next;
-	}
+	SLLPrint(a);
+
+	node*found = SLLFind(a, 3);
+	SLLInsertForward(&a, found, 5);//Remember tp print the list after insertion to check if it is correct
+	SLLPrint(a);
+	SLLInsertBackward(found, 2);
+	SLLPrint(a);
+	node* found2 = SLLFind(a, 6);
+	SLLErase(&a, found2);
+	printf("After erasing 6:\n");
+	SLLPrint(a);
+	node* found3 = SLLFind(a, 3);
+	SLLEraseBackward(found);
+	printf("After erasing the number behind 3:\n");
+	SLLPrint(a);
 
 	return 0;
 }

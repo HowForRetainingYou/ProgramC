@@ -3,6 +3,11 @@
 node* CreateNode(DataType data)
 {
 	node* newNode = (node*)malloc(sizeof(node));
+	if (newNode == NULL)
+	{
+		perror("malloc");
+		exit(-1);
+	}
 	newNode->data = data;
 	newNode->next = NULL;
 	return newNode;
@@ -78,16 +83,86 @@ void SLLPushBack(node** head, DataType data)
 		*head = newNode;
 	}
 
-	node* SLLFind(node* head, DataType tofind)
+	node* SLLFind(node* head, DataType tofind)//仅仅找到第一个符合条件的节点就返回
 	{
 		node* cur = head;
 		while (cur)
 		{
 			if (cur->data == tofind)
 			{
-				printf("Find successfully");
+				return cur;
 			}
+			cur = cur->next;
 		}
-		printf("Not found");
-		return cur;
+	
+		return NULL;
+	}
+
+	node* SLLDestroy(node** head)
+	{
+		assert(head && *head);
+		node* cur = *head;
+		while (cur)
+		{
+			node* next = cur->next;
+			free(cur);
+			cur = next;
+		}
+		*head = NULL;
+	}
+
+	node* SLLInsertForward(node** head, node* pos, DataType toinsert)//考虑到向前插入会有头插，所以需要传*head
+	{
+		assert(head && *head && pos);
+		node* newNode = CreateNode(toinsert);
+		node* prev = *head;
+		if (pos == *head)
+		{
+			SLLPushFront(head, toinsert);
+		}
+		else {
+			while (prev->next != pos)
+			{
+				prev = prev->next;
+			}
+			newNode->next = pos;
+			prev->next = newNode;
+		}
+		
+	}
+
+	node* SLLInsertBackward(node*pos,DataType toinsert)
+	{
+		assert(pos);
+		node* newNode = CreateNode(toinsert);
+		/*
+		pos->next = newNode;
+		newNode->next = pos->next;
+		*///Thos is is wrong, because after the first line,pos->next is changed,so the second line is wrong
+		newNode->next = pos->next;
+		pos->next = newNode;
+	}
+
+	node* SLLErase(node**head,node* pos)
+	{
+		assert(pos);
+		node* prev = *head;
+		while (prev->next != pos)
+		{
+			prev = prev->next;
+		}
+		prev->next = pos->next;
+		free(pos);
+		pos = NULL;
+
+	}
+
+	node* SLLEraseBackward(node*pos)
+	{
+		assert(pos && pos->next);
+		node* tmp = NULL;
+		tmp = pos->next;
+		pos->next = tmp->next;
+		free(tmp);
+		tmp = NULL;
 	}

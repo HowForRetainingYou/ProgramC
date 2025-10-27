@@ -20,5 +20,10 @@ node* SLLFind(node* head, DataType tofind);
 
 node* CreateNode(DataType data);
 void SLLPrint(node* head);
-void SLLDestroy(node** head);
-void SLLErase(node** head, DataType toerase);
+node*Destroy(node** head);
+
+
+node* SLLInsertForward(node** head, node* pos, DataType toinsert);
+node* SLLInsertBackward(node* pos, DataType toinsert);
+node* SLLErase(node** head, node* pos);
+node* SLLEraseBackward(node* pos);
