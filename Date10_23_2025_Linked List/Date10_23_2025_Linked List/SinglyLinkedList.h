@@ -17,12 +17,9 @@ void SLLPopBack(node** head);
 void SLLPopFront(node** head);
 void SLLPushFront(node** head, DataType data);
 node* SLLFind(node* head, DataType tofind);
-
 node* CreateNode(DataType data);
 void SLLPrint(node* head);
 node*Destroy(node** head);
-
-
 node* SLLInsertForward(node** head, node* pos, DataType toinsert);
 node* SLLInsertBackward(node* pos, DataType toinsert);
 node* SLLErase(node** head, node* pos);

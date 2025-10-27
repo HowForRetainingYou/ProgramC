@@ -15,6 +15,7 @@ node* CreateNode(DataType data)
 
 void SLLPrint(node* head)
 {
+	assert(head);
 	node* cur = head;
 	while (cur)
 	{
@@ -68,6 +69,7 @@ void SLLPushBack(node** head, DataType data)
 
 	void SLLPopFront(node** head)//Head its type is "**"//传过来的是 &? 是指针，需要二级指针接受,head这个单词本身就代表了二级指针
 	{
+		assert(head && *head);
 		node* next = (*head)->next;
 		free(*head);
 		*head = next;
