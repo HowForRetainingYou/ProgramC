@@ -24,6 +24,7 @@ void SLLPrint(node* head)
 	}
 	printf("NULL\n");
 }
+
 void SLLPushBack(node** head, DataType data)
 {
 
